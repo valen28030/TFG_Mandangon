@@ -64,12 +64,12 @@ lib/
 - Creación y almacenamiento de múltiples versiones.
 - Organización por eventos como “barbacoa”, “compra mensual”, etc.
 
-<p align="center">
-  <img src="img/lc.jpg" alt="Logo Mandangón" width="200"/>
+<p align="left">
+  <img src="img/lc.jpg" alt="Logo Mandangón" width="300"/>
 </p>
 
-<p align="center">
-  <img src="img/edit.jpg" alt="Logo Mandangón" width="200"/>
+<p align="left">
+  <img src="img/edit.jpg" alt="Logo Mandangón" width="300"/>
 </p>
 
 ## 🧩 Dependencias
@@ -98,8 +98,8 @@ dependencies:
 - `validar_usu.dart`: Verifica si un usuario existe en Firestore.
 - `aniadir_usu.dart`: Añade nuevos usuarios al sistema una vez registrados.
 
-<p align="center">
-  <img src="img/home.jpg" alt="Logo Mandangón" width="200"/>
+<p align="left">
+  <img src="img/home.jpg" alt="Logo Mandangón" width="300"/>
 </p>
 
 ### 🛒 Lista de la compra (`lc`)
@@ -128,8 +128,8 @@ dependencies:
 
 ---
 
-<p align="center">
-  <img src="img/config.jpg" alt="Logo Mandangón" width="200"/>
+<p align="left">
+  <img src="img/config.jpg" alt="Logo Mandangón" width="300"/>
 </p>
 
 ## ✨ Características clave
