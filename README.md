@@ -69,7 +69,7 @@ lib/
 </p>
 
 <p align="left">
-  <img src="img/edit.jpg" alt="Logo Mandangón" width="300"/>
+  <img src="img/edit.jpg" alt="Logo Mandangón" width="500"/>
 </p>
 
 ## 🧩 Dependencias
@@ -99,7 +99,7 @@ dependencies:
 - `aniadir_usu.dart`: Añade nuevos usuarios al sistema una vez registrados.
 
 <p align="left">
-  <img src="img/home.jpg" alt="Logo Mandangón" width="300"/>
+  <img src="img/home.jpg" alt="Logo Mandangón" width="500"/>
 </p>
 
 ### 🛒 Lista de la compra (`lc`)
