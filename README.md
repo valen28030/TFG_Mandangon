@@ -1,9 +1,11 @@
 # 🥘 TFG_Mandangon
 
 **Mandangon** es una aplicación de gastronomía desarrollada como Trabajo de Fin de Grado. Su propósito es ofrecer a los usuarios una herramienta intuitiva para crear, consultar y compartir recetas, gestionar listas de la compra, descubrir establecimientos hosteleros y publicar reseñas culinarias.
+
 <p align="center">
   <img src="mandangonlogo.png" alt="Logo Mandangón" width="200"/>
 </p>
+
 ---
 
 ## 📱 Descripción de la App 📌
