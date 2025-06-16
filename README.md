@@ -2,7 +2,7 @@
 
 **Mandangon** es una aplicación de gastronomía desarrollada como Trabajo de Fin de Grado. Su propósito es ofrecer a los usuarios una herramienta intuitiva para crear, consultar y compartir recetas, gestionar listas de la compra, descubrir establecimientos hosteleros y publicar reseñas culinarias.
 
-<p align="left">
+<p align="center">
   <img src="img/mandangonlogo.png" alt="Logo Mandangón" width="200"/>
 </p>
 
@@ -38,19 +38,39 @@ lib/
 - Creación de nuevas recetas con campos como: nombre, ingredientes, instrucciones y tiempos.
 - Gestión de listas de recetas favoritas.
 
+<p align="center">
+  <img src="img/recetas.jpg" alt="Logo Mandangón" width="200"/>
+</p>
+
 ### Hostelería
 - Exploración de restaurantes, bares y cafeterías filtrados por estilo.
 - Posibilidad de localización y creación de reseñas por parte del usuario.
 - Sistema de búsqueda avanzada y favoritos.
+
+<p align="center">
+  <img src="img/rest.jpg" alt="Logo Mandangón" width="200"/>
+</p>
 
 ### Reseñas
 - Clasificación de establecimientos mediante iconos personalizados.
 - Moderación de lenguaje y valoración del 1 al 5.
 - Visualización y escritura de comentarios.
 
+<p align="center">
+  <img src="rsn.jpg" alt="Logo Mandangón" width="200"/>
+</p>
+
 ### Lista de la compra
 - Creación y almacenamiento de múltiples versiones.
 - Organización por eventos como “barbacoa”, “compra mensual”, etc.
+
+<p align="center">
+  <img src="img/lc.jpg" alt="Logo Mandangón" width="200"/>
+</p>
+
+<p align="center">
+  <img src="img/edit.jpg" alt="Logo Mandangón" width="200"/>
+</p>
 
 ## 🧩 Dependencias
 
@@ -78,6 +98,10 @@ dependencies:
 - `validar_usu.dart`: Verifica si un usuario existe en Firestore.
 - `aniadir_usu.dart`: Añade nuevos usuarios al sistema una vez registrados.
 
+<p align="center">
+  <img src="img/home.jpg" alt="Logo Mandangón" width="200"/>
+</p>
+
 ### 🛒 Lista de la compra (`lc`)
 
 - `aniadir_lc.dart`, `actualizar_lc.dart`, `eliminar_lc.dart`: CRUD completo para listas de la compra almacenadas en Firestore.
@@ -103,6 +127,10 @@ dependencies:
 - `resenias.dart`: Vista que muestra todas las reseñas, incluyendo comentarios y puntuaciones visuales.
 
 ---
+
+<p align="center">
+  <img src="img/config.jpg" alt="Logo Mandangón" width="200"/>
+</p>
 
 ## ✨ Características clave
 
