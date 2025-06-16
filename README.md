@@ -38,6 +38,21 @@ Mandangon es una app centrada en la experiencia culinaria del usuario. Desde una
 - Creación y almacenamiento de múltiples versiones.
 - Organización por eventos como “barbacoa”, “compra mensual”, etc.
 
+## 🧩 Dependencias
+
+Asegúrate de tener instaladas las siguientes dependencias en tu `pubspec.yaml`:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.0.0
+  cloud_firestore: ^4.0.0
+  firebase_auth: ^4.0.0
+  provider: ^6.0.0
+  shared_preferences: ^2.0.15
+  # y otras necesarias para UI, navegación, formularios...
+
 ---
 
 ## 🧱 Estructura del proyecto
