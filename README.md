@@ -1,21 +1,28 @@
-# TFG_Mandangon
+# 🥘 TFG_Mandangon
 
-**Mandangon** es una aplicación móvil de gastronomía desarrollada como Trabajo de Fin de Grado. Su objetivo es proporcionar una experiencia completa para los amantes de la cocina, permitiendo registrar recetas, gestionar listas de la compra y explorar reseñas de establecimientos hosteleros.
+**Mandangon** es una aplicación de gastronomía desarrollada como Trabajo de Fin de Grado. Su propósito es ofrecer a los usuarios una herramienta intuitiva para crear, consultar y compartir recetas, gestionar listas de la compra, descubrir establecimientos hosteleros y publicar reseñas culinarias.
 
 ---
 
-## 📱 Descripción de la App
+## 📱 Descripción de la App 📌
 
 Mandangon es una app centrada en la experiencia culinaria del usuario. Desde una interfaz intuitiva y visualmente amigable, permite:
 
-- Registrar y consultar recetas personales o prediseñadas.
-- Añadir ingredientes con cantidades y tiempos detallados.
-- Gestionar una lista de la compra personalizable.
-- Explorar restaurantes y bares por categoría o tipo de cocina.
-- Valorar y dejar reseñas en establecimientos.
-- Acceder a un perfil personalizado con funciones adicionales.
+- Crear perfiles mediante autenticación segura.
+- Consultar y registrar recetas propias o favoritas.
+- Gestionar listas de la compra, clasificadas por ocasión.
+- Explorar restaurantes, bares y cafeterías por estilo.
+- Publicar y leer reseñas sobre recetas y locales.
 
----
+## 🧭 Estructura del proyecto
+
+lib/
+├── pantallas/ # UI principal: login, registro, inicio, etc.
+├── funciones/lc/ # Funciones relacionadas con la lista de la compra
+├── funciones/usuarios/ # Funciones de autenticación y gestión de usuarios
+├── funciones/restaurantes/ # Lógica de exploración y gestión de restaurantes
+├── funciones/resenias/ # Módulo de reseñas
+├── firebase_options.dart # Configuración de Firebase
 
 ## 👨‍🍳 Funcionalidades principales
 
