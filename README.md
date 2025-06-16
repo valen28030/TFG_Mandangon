@@ -1,7 +1,9 @@
 # 🥘 TFG_Mandangon
 
 **Mandangon** es una aplicación de gastronomía desarrollada como Trabajo de Fin de Grado. Su propósito es ofrecer a los usuarios una herramienta intuitiva para crear, consultar y compartir recetas, gestionar listas de la compra, descubrir establecimientos hosteleros y publicar reseñas culinarias.
-
+<p align="center">
+  <img src="assets/logo_mandangon.png" alt="Logo Mandangón" width="200"/>
+</p>
 ---
 
 ## 📱 Descripción de la App 📌
@@ -62,10 +64,54 @@ dependencies:
   provider: ^6.0.0
   shared_preferences: ^2.0.15
   # y otras necesarias para UI, navegación, formularios...
+```
+---
+
+## 📚 Comentarios al código
+
+### 🔐 Autenticación y gestión de usuarios
+
+- `inicio_sesion.dart`, `registro.dart`, `contrasena.dart`: Manejan la autenticación con Firebase (`FirebaseAuth`), validaciones de formularios, y navegación segura entre pantallas.
+- `iniciar_google.dart`: Implementa el inicio de sesión mediante Google Sign-In.
+- `validar_usu.dart`: Verifica si un usuario existe en Firestore.
+- `aniadir_usu.dart`: Añade nuevos usuarios al sistema una vez registrados.
+
+### 🛒 Lista de la compra (`lc`)
+
+- `aniadir_lc.dart`, `actualizar_lc.dart`, `eliminar_lc.dart`: CRUD completo para listas de la compra almacenadas en Firestore.
+- `agregar_prod.dart`, `eliminar_prod.dart`: Añade o elimina productos dentro de una lista.
+- `color_lc.dart`, `ordenar_lc.dart`, `opciones_lc.dart`: Mejoran la UX permitiendo opciones visuales, ordenamiento y accesos rápidos.
+- `confirmar_eliminar_lc.dart`, `confirmar_lc.dart`: Cuadros de diálogo que solicitan confirmación antes de acciones críticas.
+- `get_lc.dart`: Obtiene todas las listas del usuario autenticado.
+- `compartir_lc.dart`: Implementa el mecanismo para compartir listas de la compra entre usuarios registrados.
+
+### 🍽️ Gestión de restaurantes
+
+- `obtener_rest.dart`, `buscar_rest.dart`: Consultan la base de datos de establecimientos. Permiten filtrar por estilo y búsqueda por nombre.
+- `aleatorio_rest.dart`: Devuelve un restaurante al azar, ideal para decisiones espontáneas.
+- `media_rest.dart`: Calcula la media de valoraciones por establecimiento.
+- `direccion_rest.dart`, `web_rest.dart`, `compartir_rest.dart`: Proveen accesos directos a mapas, web oficial y opciones de compartir.
+- `restaurantes.dart`, `restaurante_card.dart`: Pantallas e interfaces para mostrar y seleccionar restaurantes.
+
+### ✍️ Módulo de reseñas
+
+- `enviar_rsn.dart`: Permite al usuario añadir una reseña vinculada a un establecimiento.
+- `obtener_rsn.dart`: Recupera las reseñas publicadas en Firestore.
+- `fecha_rsn.dart`: Genera la marca de tiempo de la reseña para ordenarlas cronológicamente.
+- `resenias.dart`: Vista que muestra todas las reseñas, incluyendo comentarios y puntuaciones visuales.
 
 ---
 
-## 🧱 Estructura del proyecto
+## ✨ Características clave
 
-El código fuente está organizado por pantallas y funcionalidades:
+- 🔐 Autenticación con Firebase y Google.
+- 🛒 Listas de la compra inteligentes y compartibles.
+- 🍲 Gestión completa de recetas personalizadas.
+- 🏪 Exploración de hostelería con filtros dinámicos.
+- ⭐ Sistema de reseñas con moderación de contenido.
 
+---
+
+## 📄 Licencia
+
+Este proyecto forma parte del Trabajo de Fin de Grado y su redistribución no está permitida sin autorización expresa del autor.
