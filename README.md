@@ -24,6 +24,8 @@ lib/
 ├── funciones/restaurantes/ # Lógica de exploración y gestión de restaurantes
 ├── funciones/resenias/ # Módulo de reseñas
 ├── firebase_options.dart # Configuración de Firebase
+```
+
 
 ## 👨‍🍳 Funcionalidades principales
 
