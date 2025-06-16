@@ -129,7 +129,7 @@ dependencies:
 ---
 
 <p align="left">
-  <img src="img/config.jpg" alt="Logo Mandangón" width="300"/>
+  <img src="img/config.jpg" alt="Logo Mandangón" width="500"/>
 </p>
 
 ## ✨ Características clave
