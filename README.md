@@ -16,6 +16,7 @@ Mandangon es una app centrada en la experiencia culinaria del usuario. Desde una
 
 ## 🧭 Estructura del proyecto
 
+```yaml
 lib/
 ├── pantallas/ # UI principal: login, registro, inicio, etc.
 ├── funciones/lc/ # Funciones relacionadas con la lista de la compra
