@@ -2,8 +2,8 @@
 
 **Mandangon** es una aplicación de gastronomía desarrollada como Trabajo de Fin de Grado. Su propósito es ofrecer a los usuarios una herramienta intuitiva para crear, consultar y compartir recetas, gestionar listas de la compra, descubrir establecimientos hosteleros y publicar reseñas culinarias.
 
-<p align="center">
-  <img src="img/mandangonlogo.png" alt="Logo Mandangón" width="200"/>
+<p align="left">
+  <img src="img/mandangonlogo.png" alt="Logo Mandangón" width="300"/>
 </p>
 
 ---
@@ -38,8 +38,8 @@ lib/
 - Creación de nuevas recetas con campos como: nombre, ingredientes, instrucciones y tiempos.
 - Gestión de listas de recetas favoritas.
 
-<p align="center">
-  <img src="img/recetas.jpg" alt="Logo Mandangón" width="200"/>
+<p align="left">
+  <img src="img/recetas.jpg" alt="Logo Mandangón" width="300"/>
 </p>
 
 ### Hostelería
@@ -47,8 +47,8 @@ lib/
 - Posibilidad de localización y creación de reseñas por parte del usuario.
 - Sistema de búsqueda avanzada y favoritos.
 
-<p align="center">
-  <img src="img/rest.jpg" alt="Logo Mandangón" width="200"/>
+<p align="left">
+  <img src="img/rest.jpg" alt="Logo Mandangón" width="300"/>
 </p>
 
 ### Reseñas
@@ -56,8 +56,8 @@ lib/
 - Moderación de lenguaje y valoración del 1 al 5.
 - Visualización y escritura de comentarios.
 
-<p align="center">
-  <img src="rsn.jpg" alt="Logo Mandangón" width="200"/>
+<p align="left">
+  <img src="img/rsn.jpg" alt="Logo Mandangón" width="300"/>
 </p>
 
 ### Lista de la compra
